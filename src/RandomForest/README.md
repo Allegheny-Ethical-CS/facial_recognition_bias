@@ -1,21 +1,11 @@
-
 ## Random Forest
 
 Info about the algorithm
 
 ## Run
 
-### With Poetry
-
-- Navigate to `src/RandomForest` directory and run: `poetry run python classify.py`
-
-NOTE: You may run `python classify.py` directly, if you are inside the poetry shell.
-### Without Poetry
-
-- After installing all the dependencies locally Navigate to `src/RandomForest` directory and run: `python classify.py`
-
 ## Required arguments:
-
+- Navigate to `src/RandomForest` directory
   - `--females` number of images of females, maximum amount is 5407.
   - `--males` number of images of males, maximum amount is 4372.
 
@@ -26,4 +16,4 @@ will be split into training and test data, where test data share is 0.3.
 
 ## Output
 
-The output is a classification report, and labeled sample image, press any key to get labels for more images.
+Please note that it may take a while to run the experiment. The output is a classification report, and labeled sample images, press enter key to get labels for more images.

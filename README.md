@@ -58,7 +58,9 @@ The project is funded by Mozilla Foundation and it will be used in AI course at 
 
 ### With Poetry(Recommended)
 
-After pulling the repo, use `poetry shell` in `facial_recognition_bias/` to enter the virtual environment. Under the virtual environment, use `poetry install` to install dependencies. Please refer to poetry documentation [here](https://python-poetry.org/docs/basic-usage/#installing-dependencies) for more info about dependency installation.
+Use `poetry install` to install dependencies. Please refer to poetry documentation [here](https://python-poetry.org/docs/basic-usage/#installing-dependencies) for more info about dependency installation.
+
+Please note that installation process may take a while.
 
 After entering the virtual environment and installing the dependencies please refer to the following links for the detailed info on how to run each classifier.
 
